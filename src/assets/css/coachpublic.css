@@ -1,0 +1,17 @@
+.container{
+    padding: 20px;
+    height: calc(100% - 100px);
+    overflow: auto;
+}
+
+h2{
+    color: rgb(53, 166, 211);
+}
+
+h2:after{
+    margin-top: 10px;
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: rgb(53, 166, 211);
+}
